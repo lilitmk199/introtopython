@@ -9,12 +9,13 @@ print("weekday:",birth.weekday())
 
 nextbirth=datetime.date(2020,8,13)
 tday=datetime.date.today()
-print("until the next birthday",nextbirth-tday)
+print("until the next birthday",nextbirth-tday, "\n")
 
 
 import calendar
 cal= calendar.month(2017,5)
-print( "here is the calndar", cal)
+
+print( cal)
 
 one_day = datetime.timedelta(days = 1)
 

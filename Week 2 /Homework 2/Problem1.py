@@ -15,4 +15,8 @@ print("current date:", current_date)
 
 print("final date:", current_date+datetime.timedelta(days=args.num_d))
 
+print("final date:", current_date+ args.num_y+datetime.timedelta(days=args.num_d))
+
+
+
 
